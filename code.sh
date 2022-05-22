@@ -17,7 +17,7 @@ MY_OPENVSCODE_EXTENSIONS=(
 	'dracula-theme.theme-dracula'
 	'mechatroner.rainbow-csv'
 	'hashicorp.terraform'
-	'hashicorp.terraform'
+	'ms-azuretools.vscode-docker'
 )
 
 MY_OPENVSCODE_TEMP_DOWNLOAD="/tmp/openvscodeserver.tar.gz"
