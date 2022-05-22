@@ -8,7 +8,7 @@ Google Cloud Shell is available at no additional cost for Google Cloud customers
 
 Start Google Cloud Shell:
 
-[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.png)](https://shell.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/Cyclenerd/google-cloud-shell-vscode&cloudshell_git_branch=master&cloudshell_tutorial=cloud-shell-tutorial.md)
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.png)](https://shell.cloud.google.com/?show=terminal)
 
 ## 2. Download
 
