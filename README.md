@@ -27,7 +27,7 @@ bash code.sh install
 ## 4. Start
 
 Start OpenVSCode Server:
-[The first time after you install, you will need to 'exec /bin/bash' to load aliases. One time thing.]
+[The first time after you install, you will need to 'exec /bin/bash' to load aliases]
 ```bash
 code
 ```
