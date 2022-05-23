@@ -14,7 +14,7 @@ Start Google Cloud Shell:
 
 Download `code.sh` script:
 ```bash
-cd ~ && curl -O "https://raw.githubusercontent.com/Cyclenerd/google-cloud-shell-vscode/master/code.sh"
+curl -O "https://raw.githubusercontent.com/Cyclenerd/google-cloud-shell-vscode/master/code.sh"
 ```
 
 ## 3. Install
@@ -27,9 +27,8 @@ bash code.sh install
 ## 4. Start
 
 Start OpenVSCode Server:
-[The first time after you install, you will need to 'exec /bin/bash' to load aliases]
 ```bash
-code
+bash code.sh
 ```
 
 Open web preview URL:
@@ -62,15 +61,20 @@ Edit settings (<kbd>Ctrl</kbd> + <kbd>,</kbd>):
 }
 ```
 
+## Tip
+
+Add `code.sh` to your Bash aliases with absolute pathnames. You can then execute `code` anywhere.
+
+Alias (~/.bash_aliases):
+```text
+echo "bash `pwd`/code.sh" >> ~/.bash_aliases
+```
+
 ## Usage
 
 Help:
 ```bash
 bash code.sh help
-```
-or 
-```bash
-code help
 ```
 
 ```text
