@@ -14,7 +14,7 @@ Start Google Cloud Shell:
 
 Download `code.sh` script:
 ```bash
-curl -O "https://raw.githubusercontent.com/Cyclenerd/google-cloud-shell-vscode/master/code.sh"
+mkdir ~/OpenVSCode && cd ~/OpenVSCode && curl -O "https://raw.githubusercontent.com/Cyclenerd/google-cloud-shell-vscode/master/code.sh"
 ```
 
 ## 3. Install
