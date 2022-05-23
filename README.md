@@ -83,11 +83,6 @@ COMMAND is one of the following:
         help    - displays help (this message)
 ```
 
-## Background Process Management
-If you use aliases like 'code' or 'vscode' instead of 'bash code.sh' the script will load in the background and automatically return your cloud shell to a new line. 
-
-You can use 'fg' to foreground the server job or 'top' to manage the process as usual. 
-
 ## Contributing
 
 Have a patch that will benefit this project?
