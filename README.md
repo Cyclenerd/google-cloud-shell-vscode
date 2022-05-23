@@ -105,10 +105,13 @@ The default editor is [Theia](https://theia-ide.org/), and it's definitely an ex
 >
 > This is VS Code.
 
-My developer heart is set on VS Code.
+My developer heart is set on VS Code 🧑‍💻💘.
 I don't want to miss the marketplace and the VS Code extensions.
+I also like the 160px more vertical space for the source code.
 
-If you feel the same way, this project with the script will help you. If you get along with Theia, also good. This is diversity.
+If you feel the same way, this project with the script will help you.
+If you get along with Theia, also good.
+This is diversity.
 
 ## Contributing
 
