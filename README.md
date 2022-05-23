@@ -27,8 +27,9 @@ bash code.sh install
 ## 4. Start
 
 Start OpenVSCode Server:
+(You need to exec /bin/bash first!)
 ```bash
-bash code.sh
+vscode
 ```
 
 Open web preview URL:
