@@ -87,6 +87,29 @@ COMMAND is one of the following:
         help    - displays help (this message)
 ```
 
+## Why
+
+Why..? You may ask..: "For me, the standard looks exactly the same, doesn't it?"
+
+![Screenshot: Theia vs. VS Code](./img/theia_vs_code.jpg)
+
+The default editor is [Theia](https://theia-ide.org/), and it's definitely an excellent product.
+
+[GitPod](https://www.gitpod.io/blog/cloud-ide-history) writes about this topic in their blog:
+
+> To convince developers to say goodbye to local development, it is important to not reinvent the wheel but offer an editing experience that:
+>
+> * Is backed by a thriving community
+> * Wins hearts and minds of developers
+> * Works on modern web technology
+>
+> This is VS Code.
+
+My developer heart is set on VS Code.
+I don't want to miss the marketplace and the VS Code extensions.
+
+If you feel the same way, this project with the script will help you. If you get along with Theia, also good. This is diversity.
+
 ## Contributing
 
 Have a patch that will benefit this project?
