@@ -27,8 +27,9 @@ bash code.sh install
 ## 4. Start
 
 Start OpenVSCode Server:
+[The first time after you install, you will need to 'exec /bin/bash' to load aliases. One time thing.]
 ```bash
-bash code.sh
+code
 ```
 
 Open web preview URL:
@@ -66,6 +67,10 @@ Edit settings (<kbd>Ctrl</kbd> + <kbd>,</kbd>):
 Help:
 ```bash
 bash code.sh help
+```
+or 
+```bash
+code help
 ```
 
 ```text
