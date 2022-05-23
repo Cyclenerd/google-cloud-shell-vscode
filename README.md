@@ -113,6 +113,9 @@ If you feel the same way, this project with the script will help you.
 If you get along with Theia, also good.
 This is diversity.
 
+If you rely on [Cloud Code](https://marketplace.visualstudio.com/items?itemName=GoogleCloudTools.cloudcode), please support this [issue](https://github.com/GoogleCloudPlatform/cloud-code-vscode/issues/256).
+Google unfortunately does not publish to the vendor neutral, Open Source marketplace for VS Code [Open VSX](https://open-vsx.org/).
+
 ## Contributing
 
 Have a patch that will benefit this project?
