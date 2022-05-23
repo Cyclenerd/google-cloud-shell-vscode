@@ -84,11 +84,7 @@ COMMAND is one of the following:
 ```
 
 ## Background Process Management
-If you use aliases like:
-```bash
-code 
-```
-the script will load in the background and automatically return your cloud shell to a new line. 
+If you use aliases like 'code' or 'vscode' instead of 'bash code.sh' the script will load in the background and automatically return your cloud shell to a new line. 
 
 You can use 'fg' to foreground the server job or 'top' to manage the process as usual. 
 
