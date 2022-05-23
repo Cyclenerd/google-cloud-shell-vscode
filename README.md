@@ -27,9 +27,9 @@ bash code.sh install
 ## 4. Start
 
 Start OpenVSCode Server:
-(You need to exec /bin/bash first!)
+[The first time after you install, you will need to 'exec /bin/bash' to load aliases. One time thing.]
 ```bash
-vscode
+code
 ```
 
 Open web preview URL:
@@ -68,6 +68,10 @@ Help:
 ```bash
 bash code.sh help
 ```
+or 
+```bash
+code help
+```
 
 ```text
 Usage: code.sh [COMMAND]
@@ -78,6 +82,13 @@ COMMAND is one of the following:
         remove  - remove OpenVSCode Server
         help    - displays help (this message)
 ```
+
+## Background Process
+If you use aliases like:
+```bash
+code
+```
+the script will load in the background and return your cloud shell. You can use 'fg' to foreground the server job and kill it.  
 
 ## Contributing
 
