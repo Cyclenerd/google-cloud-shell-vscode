@@ -61,6 +61,15 @@ Edit settings (<kbd>Ctrl</kbd> + <kbd>,</kbd>):
 }
 ```
 
+## Tip
+
+Add `code.sh` to your Bash aliases with absolute pathnames. You can then execute `code` anywhere.
+
+Alias (~/.bash_aliases):
+```text
+echo "bash `pwd`/code.sh" >> ~/.bash_aliases
+```
+
 ## Usage
 
 Help:
