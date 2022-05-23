@@ -165,11 +165,10 @@ function install_openvscode() {
 		"$MY_OPENVSCODE_DIR/latest/bin/openvscode-server" --install-extension "$MY_OPENVSCODE_EXTENSION" --force
 	done
 
-	echo "alias code='bash code.sh&'" >> ~/.bashrc
-	echo "alias vscode='bash code.sh&'" >> ~/.bashrc
+	echo "alias code='bash code.sh'" >> ~/.bashrc
 	
 	echo_success "Installed successfully. You can start OpenVSCode Server now."
-	echo 'You could type: "exec /bin/bash" to reload configs and then "code" or "vscode" to launch the server from your cloud shell.' 
+	echo 'You could type: "exec /bin/bash" to reload configs and then "code" to launch the server from your cloud shell.' 
 }
 
 function start_openvscode() {
