@@ -67,7 +67,7 @@ Add `code.sh` to your Bash aliases with absolute pathnames. You can then execute
 
 Alias (~/.bash_aliases):
 ```text
-echo "bash `pwd`/code.sh" >> ~/.bash_aliases
+echo "alias code='bash `pwd`/code.sh'" >> ~/.bash_aliases && bash
 ```
 
 ## Usage
