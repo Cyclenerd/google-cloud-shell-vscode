@@ -83,12 +83,14 @@ COMMAND is one of the following:
         help    - displays help (this message)
 ```
 
-## Background Process
+## Background Process Management
 If you use aliases like:
 ```bash
-code
+code 
 ```
-the script will load in the background and return your cloud shell. You can use 'fg' to foreground the server job and kill it.  
+the script will load in the background and automatically return your cloud shell to a new line. 
+
+You can use 'fg' to foreground the server job or 'top' to manage the process as usual. 
 
 ## Contributing
 
