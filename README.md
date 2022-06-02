@@ -35,12 +35,19 @@ Open web preview URL:
 
 ![Screenshot: Open web preview](./img/google-cloud-shell-open-web-preview.jpg?v1)
 
-![Screenshot: OpenVSCode Settings](./img/openvscode-settings.jpg)
+## Settings
 
-Edit settings (<kbd>Ctrl</kbd> + <kbd>,</kbd>):
+Your user settings are stored in the browser's local cache. If you use another browser and if the preview URL changes, your settings are gone. Unfortunately, the preview URL changes over time. It is therefore strongly recommended to make the settings in the remote area.
+
+Open Settings (<kbd>Ctrl</kbd> + <kbd>,</kbd>) and click on `Remote...`:
+![Screenshot: OpenVSCode Settings](./img/openvscode-global-settings.jpg)
+
+Open Settings JSON:
+![Screenshot: OpenVSCode Settings](./img/openvscode-json.jpg)
+
+My settings:
 ```json
 {
-    "telemetry.enableTelemetry": false,
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
@@ -59,6 +66,12 @@ Edit settings (<kbd>Ctrl</kbd> + <kbd>,</kbd>):
     "html.autoClosingTags": false,
     "diffEditor.ignoreTrimWhitespace": false
 }
+```
+
+The remote OpenVSCode Server settings are located in the remote file system in the Cloud Shell under:
+
+```shell
+jq < $HOME/.openvscode-server/data/Machine/settings.json
 ```
 
 ## Tip
