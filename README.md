@@ -33,17 +33,17 @@ bash code.sh
 
 Open web preview URL:
 
-![Screenshot: Open web preview](./img/google-cloud-shell-open-web-preview.jpg?v1)
+![Screenshot: Open web preview](https://raw.githubusercontent.com/Cyclenerd/google-cloud-shell-vscode/master/img/google-cloud-shell-open-web-preview.jpg?v1)
 
 ## Settings
 
 Your user settings are stored in the browser's local cache. If you use another browser and if the preview URL changes, your settings are gone. Unfortunately, the preview URL changes over time. It is therefore strongly recommended to make the settings in the remote area.
 
 Open Settings (<kbd>Ctrl</kbd> + <kbd>,</kbd>) and click on `Remote...`:
-![Screenshot: OpenVSCode Settings](./img/openvscode-global-settings.jpg)
+![Screenshot: OpenVSCode Settings](https://raw.githubusercontent.com/Cyclenerd/google-cloud-shell-vscode/master/img/openvscode-global-settings.jpg)
 
 Open Settings JSON:
-![Screenshot: OpenVSCode Settings](./img/openvscode-json.jpg)
+![Screenshot: OpenVSCode Settings](https://raw.githubusercontent.com/Cyclenerd/google-cloud-shell-vscode/master/img/openvscode-json.jpg)
 
 My settings:
 ```json
@@ -104,7 +104,7 @@ COMMAND is one of the following:
 
 Why..? You may ask..: "For me, the standard looks exactly the same, doesn't it?"
 
-![Screenshot: Theia vs. VS Code](./img/theia_vs_code.jpg)
+![Screenshot: Theia vs. VS Code](https://raw.githubusercontent.com/Cyclenerd/google-cloud-shell-vscode/master/img/theia_vs_code.jpg)
 
 The default editor is [Theia](https://theia-ide.org/), and it's definitely an excellent product.
 
