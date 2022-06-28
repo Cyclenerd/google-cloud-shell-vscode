@@ -175,9 +175,16 @@ function start_openvscode() {
 	echo_title "Start OpenVSCode Server"
 	MY_OPENVSCODE_SERVER="$MY_OPENVSCODE_DIR/latest/bin/openvscode-server"
 	if [ -x "$MY_OPENVSCODE_SERVER" ]; then
+		# Google CLI auth
 		gcloud auth list
+		# GnuPG
+		if [ -d "$HOME/.gnupg" ]; then
+			echo "test" | gpg --clearsign
+		fi
+		# URL
 		MY_CLOUDSHELL_URL="$(cloudshell get-web-preview-url -p $MY_OPENVSCODE_PORT)"
 		echo_web "You can open OpenVSCode using this URL $MY_CLOUDSHELL_URL"
+		echo
 		sleep 3
 		"$MY_OPENVSCODE_SERVER" --without-connection-token --host "$MY_OPENVSCODE_HOST" --port "$MY_OPENVSCODE_PORT" || exit_with_failure "Cannot start OpenVSCode Server '$MY_OPENVSCODE_SERVER'"
 	else
