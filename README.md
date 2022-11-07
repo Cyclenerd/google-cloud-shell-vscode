@@ -1,5 +1,8 @@
 # Run OpenVSCode Server in Google Cloud Shell
 
+![Bagde: Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?logo=google-cloud&logoColor=white)
+![Bagde: Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?logo=visualstudiocode&logoColor=white)
+
 Install and start [OpenVSCode Server](https://github.com/gitpod-io/openvscode-server) in [Google Cloud Shell](https://cloud.google.com/shell/).
 
 Google Cloud Shell is available at no additional cost (free) for Google Cloud customers and you get 5 GB of persistent storage.
