@@ -3,6 +3,19 @@
 [![Bagde: Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?logo=google-cloud&logoColor=white)](#readme)
 [![Bagde: Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?logo=visualstudiocode&logoColor=white)](#readme)
 
+---
+
+**Update: December 2023**
+
+You can now use Open VS Code (Code OSS) without extra installation as Google Cloud Shell Editor.
+Theia is currently still available as a legacy editor.
+
+![Screenshot: Code OSS](./img/code-oss.png)
+
+An extra installation and this project are therefore no longer necessary.
+
+---
+
 Install and start [OpenVSCode Server](https://github.com/gitpod-io/openvscode-server) in [Google Cloud Shell](https://cloud.google.com/shell/).
 
 Google Cloud Shell is available at no additional cost (free) for Google Cloud customers and you get 5 GB of persistent storage.
